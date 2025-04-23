@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#controls, #media-preview, #chat-interface {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#controls button, #controls select, #chat-interface button, #chat-interface input {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+#controls button:disabled, #chat-interface button:disabled, #chat-interface input:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#status {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#log {
+    background-color: #e9e9e9;
+    border-radius: 3px;
+    padding: 10px;
+    max-height: 400px; /* Limit height */
+    min-height: 100px;
+    overflow-y: auto; /* Make scrollable */
+}
+
+#log div {
+    margin-bottom: 5px;
+    word-wrap: break-word;
+}
+
+#interim-log {
+    color: gray;
+    font-style: italic;
+    min-height: 1.2em; /* Reserve space */
+    margin-bottom: 10px;
+}
+
+#video-preview {
+    border: 1px solid #ccc;
+    background-color: #000;
+}
+
+#text-input {
+    width: calc(100% - 110px); /* Adjust based on button width */
+}
