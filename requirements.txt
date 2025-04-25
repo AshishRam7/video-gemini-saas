@@ -1,0 +1,8 @@
+websockets
+numpy
+Pillow
+fastapi
+google-genai
+soundfile
+python-dotenv
+kokoro
